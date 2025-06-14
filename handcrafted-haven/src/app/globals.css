@@ -35,6 +35,12 @@ a {
   text-decoration: none;
 }
 
+.footer {
+  grid-row-start: 3;
+  display: flex;
+  gap: 24px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
